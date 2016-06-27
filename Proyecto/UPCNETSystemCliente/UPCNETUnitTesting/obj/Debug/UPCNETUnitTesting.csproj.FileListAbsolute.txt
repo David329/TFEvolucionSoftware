@@ -1,0 +1,17 @@
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\UPCNETUnitTesting.dll.config
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\UPCNETUnitTesting.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\UPCNETUnitTesting.pdb
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\nunit.framework.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\UPCNETSystemCliente.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\System.Web.Mvc.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\PagedList.Mvc.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\PagedList.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\UPCNETSystemCliente.pdb
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\System.Web.Mvc.xml
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\PagedList.Mvc.xml
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\PagedList.xml
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\obj\Debug\UPCNETUnitTesting.csprojResolveAssemblyReference.cache
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\obj\Debug\UPCNETUnitTesting.dll
+C:\Users\Petith\Desktop\Git UPCNET\Proyecto\UPCNETSystemCliente\UPCNETUnitTesting\obj\Debug\UPCNETUnitTesting.pdb
