@@ -282,45 +282,4 @@ public class CursoAlumnoDAO {
         }
         return lista;
     }
-    public List<CursoAlumnoReporte> getCursoAlumnoReporteByCiclo(String idAlumno,int ciclo) {
-        List<CursoAlumnoReporte> lista = new ArrayList<>();
-        Connection con = null;
-        try {
-            con = AccesoDB.getConnection();
-            StringBuilder query = new StringBuilder();
-            query.append("SELECT c.IDCurso, c.Nombre AS CursoN, p.Nombre AS ProfesorN, cc.PC1, cc.PC2, cc.EP, cc.EF FROM Curso_Alumno cc\n" +
-                            "JOIN Alumno a ON a.IDAlumno = cc.IDAlumno\n" +
-                            "JOIN Curso c ON c.IDCurso = cc.IDCurso\n" +
-                            "JOIN Profesor p ON p.IDProfesor = c.IDProfesor\n" +
-                            "WHERE a.IDAlumno = ? and c.CicloDeCurso=?");
-            PreparedStatement ps = con.prepareStatement(query.toString());
-            ps.setString(1, idAlumno);
-            ps.setInt(2, ciclo);
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                CursoAlumnoReporte obj = new CursoAlumnoReporte();
-                obj.setIdCurso(rs.getString("IDCurso"));
-                obj.setCurso(rs.getString("CursoN"));
-                obj.setProfesor(rs.getString("ProfesorN"));
-                obj.setPc1(rs.getDouble("PC1"));
-                obj.setPc2(rs.getDouble("PC2"));
-                obj.setEp(rs.getDouble("EP"));
-                obj.setEf(rs.getDouble("EF"));
-                
-                lista.add(obj);
-            }
-        } catch (SQLException ex) {
-            throw new RuntimeException(ex.getMessage());
-        } catch (Exception e) {
-            throw new RuntimeException("No se tiene acceso al servidor");
-        } finally {
-            try {
-                if (con != null) {
-                    con.close();
-                }
-            } catch (Exception ex) {
-            }
-        }
-        return lista;
-    }
 }

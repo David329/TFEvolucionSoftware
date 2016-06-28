@@ -74,10 +74,5 @@ public class UPCNETServiceCursoAlumno {
        return lista;
     }
     
-    @WebMethod(operationName = "getCursoAlumnoReporteByCiclo")
-    public List<CursoAlumnoReporte> getCursoAlumnoReporteByCiclo(String idAlumno,int ciclo) {
-       CursoAlumnoDAO cursoAlumnoDAO = new CursoAlumnoDAO();
-       List<CursoAlumnoReporte> lista = cursoAlumnoDAO.getCursoAlumnoReporteByCiclo(idAlumno,ciclo);
-       return lista;
-    }
+    
 }

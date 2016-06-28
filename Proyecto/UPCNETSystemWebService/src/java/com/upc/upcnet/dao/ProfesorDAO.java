@@ -188,7 +188,7 @@ public class ProfesorDAO {
             query.append("SELECT * FROM Profesor WHERE IDProfesor = ? AND Pass = ?");
             PreparedStatement ps = cn.prepareStatement(query.toString());
             ps.setString(1, _idProfesor);
-            ps.setString(1, _pass);
+            ps.setString(2, _pass);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 return true;
